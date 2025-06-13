@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect id="podlasie" x="100" y="100" width="200" height="150" fill="#ffffff" stroke="#000" stroke-width="2"/>
+  <rect id="lwow" x="320" y="100" width="200" height="150" fill="#ff9900" stroke="#000" stroke-width="2"/>
+  <rect id="kaliningrad" x="540" y="100" width="200" height="150" fill="#cc0000" stroke="#000" stroke-width="2"/>
+  <text x="150" y="190" fill="#000">Podlasie</text>
+  <text x="360" y="190" fill="#000">Lwów</text>
+  <text x="580" y="190" fill="#000">Kaliningrad</text>
+</svg>
