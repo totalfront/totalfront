@@ -1,23 +1,26 @@
 body {
-  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
   text-align: center;
-  background-color: #111;
-  color: #eee;
+  font-family: sans-serif;
 }
 
-h1 {
-  margin-top: 20px;
+.mapa {
+  position: relative;
+  width: 700px;
+  height: 650px;
+  margin: auto;
+  background-image: url("mapaeuropa.jpg");
+  background-size: cover;
+  border: 2px solid #444;
 }
 
-#mapa-container {
-  margin: 20px auto;
-  width: 90%;
-  max-width: 800px;
-  border: 2px solid #333;
+.region {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.0);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
 }
 
-#info {
-  margin-top: 20px;
-  font-size: 18px;
-  color: #00ff99;
-}
