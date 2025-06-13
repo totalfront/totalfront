@@ -2,19 +2,17 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
-  <title>TotalFront – Kampania Wojny</title>
+  <title>TotalFront – Mapa Europy</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>TotalFront – Kampania Europa</h1>
-  <p>Kliknij na region, aby zobaczyć jego status.</p>
-
-  <div id="mapa-container">
-    <object id="mapa" type="image/svg+xml" data="mapa.svg"></object>
+  <h1>Mapa Europy – Kampania</h1>
+  <div class="mapa">
+    <div class="region" id="polska" style="top: 180px; left: 400px;"></div>
+    <div class="region" id="niemcy" style="top: 190px; left: 350px;"></div>
+    <div class="region" id="rosja" style="top: 160px; left: 520px;"></div>
   </div>
-
   <div id="info"></div>
-
   <script src="mapa.js"></script>
 </body>
 </html>
